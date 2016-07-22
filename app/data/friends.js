@@ -14,3 +14,5 @@ var friendsData = [{
         1
     ]
 }]
+
+module.exports = friendsData;
