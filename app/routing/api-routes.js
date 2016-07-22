@@ -19,20 +19,16 @@ module.exports = function(app){
 
 	app.get('api/friends', function(req, res){
 		res.json(friendsData);
+		res.json(true);
 	});
 
 	app.post('/api/friends', function(req, res){
-		if(friendsData.length < 5){
-			friendsData.push(req.body);
-			res.json(true);
-		}
-		else{
-			res.json(false);
-		}
+		res.json(friendsData);
+		res.json(true);
 	});
 
-	app.post('/api/clear', function(req, res){
-		friendsData = [];
-		console.log(friendsData);
-	});
+	// app.post('/api/clear', function(req, res){
+	// 	friendsData = [];
+	// 	console.log(friendsData);
+	// });
 }
