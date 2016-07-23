@@ -13,7 +13,7 @@ var friendsData = [{
             4,
             1
         ]
-    } {
+    }, {
         name: "Jimmie",
         photo: 'https://www.dropbox.com/s/bzp7rumk1dg10n3/selfie_day176.jpg?dl=0',
         scores: [
