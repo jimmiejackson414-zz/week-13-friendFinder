@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A compatibility application that takes in user's survey answers to compare to other users. Utilizes Express, modals, and HTML to create a full user experience.",
   "main": "server.js",
+  "dependencies": {
+    "ejs": "2.4.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -16,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/jimmiejackson414/week-13-friendFinder/issues"
   },
-  "homepage": "https://github.com/jimmiejackson414/week-13-friendFinder#readme"
+  "homepage": "https://github.com/jimmiejackson414/week-13-friendFinder#readme",
+  "engines": {
+    "node": "6.2.2"
+  }
 }
